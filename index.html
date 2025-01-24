@@ -1,3 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome to My GitHub Page</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            background-color: #f0f0f0;
+            color: #333;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #4CAF50;
+            color: white;
+            padding: 20px 0;
+            font-size: 2rem;
+        }
+        main {
+            margin: 50px auto;
+            max-width: 600px;
+        }
+        button {
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            font-size: 1rem;
+            cursor: pointer;
+            border-radius: 5px;
+        }
+        button:hover {
+            background-color: #45a049;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        Welcome to My GitHub Page!
+    </header>
+    <main>
+        <p>Hello, this is a simple webpage hosted using GitHub Pages. Click the button below to see a greeting!</p>
+        <button onclick="displayGreeting()">Click Me</button>
+        <p id="greeting" style="font-size: 1.2rem; margin-top: 20px;"></p>
+    </main>
+    <script>
+        function displayGreeting() {
+            const greeting = document.getElementById('greeting');
+            greeting.textContent = "Thanks for visiting my page!";
+        }
+    </script>
+</body>
+</html>
+
+
 <!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-C303EH64FZ"></script>
 <script>
